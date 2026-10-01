@@ -305,5 +305,6 @@ footer{background:var(--navy-d);color:#c9cfdd;padding-block:36px;text-align:cent
   bs.forEach(function(b){b.onclick=function(){var f=b.dataset.f;bs.forEach(function(x){x.classList.toggle('on',x===b)});document.querySelectorAll('.card').forEach(function(c){c.hidden=!(f==='all'||c.dataset.cat===f)})}});
 })();
 </script>
+<style>header .warnband{display:none!important}header{border-bottom:2px solid #c9a46a}</style>
 </body>
 </html>
